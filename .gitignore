@@ -1,0 +1,16 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+app/release/NoSleepService_RELEASE_V1.0.apk
+app/release/NoSleepService_RELEASE_V1.1.apk
+app/release/output.json

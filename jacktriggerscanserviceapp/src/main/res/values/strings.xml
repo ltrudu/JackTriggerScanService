@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">JackTriggerService</string>
+    <string name="no_sleep_service_notification_title">JackTriggerService</string>
+    <string name="no_sleep_service_notification_text">A service that runs in foreground.</string>
+    <string name="no_sleep_service_notification_tickle">JackTriggerService</string>
+    <string name="serviceStopped">Service is stopped</string>
+    <string name="serviceStarted">Service is running</string>
+    <string name="startOnBoot">Start on boot</string>
+    <string name="doNothingOnBoot">Do nothing on boot</string>
+    <string name="startOnCharging">Start when charging \nStop when not charging</string>
+    <string name="doNothingOnCharging">Power events not\nmonitored</string>
+    <string name="nosleepservice_channel_name">Jack Trigger Service</string>
+    <string name="nosleepservice_channel_id">Jack Trigger Service channel</string>
+    <string name="appdescription">Jack Trigger Service is a service that runs in foreground.\nService can be started with adb:\nadb shell am broadcast -a com.zebra.jacktriggerservice.startservice\nService can be stopped with adb:\nadb shell am broadcast -a com.zebra.jacktriggerservice.stopservice</string>
+    <string name="powereventswatcherservice_channel_name">Jack Trigger Service</string>
+    <string name="powereventswatcherservice_channel_id">Jack Trigger Service channel</string>
+    <string name="powereventswatcherservice_notification_title">JackTriggerService Power Events Watcher</string>
+    <string name="powereventswatcherservice_notification_text">A service that watch for power events (docked, charging) to start or stop JackTriggerService.</string>
+    <string name="powereventswatcherservice_notification_tickle">JackTriggerService Power Events Watcher</string>
+
+</resources>
